@@ -7,7 +7,11 @@
 body section#title {
   background-color: #ff4c68;
 }
-body div.row div.col-lg-6 h1 {
+body section#title .container-fluid {
+  padding: 3% 15%;
+  background-color: blue;
+}
+body section#title .container-fluid div.row div.col-lg-6 h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-size: 3rem;
   line-height: 1.3;
