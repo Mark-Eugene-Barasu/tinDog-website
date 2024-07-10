@@ -4,7 +4,11 @@
   padding: 0px;
 }
 
-body {
-  height: 100vh;
-  background-image: linear-gradient(skyblue, white, 80%, sandybrown, green);
+body section#title {
+  background-color: #ff4c68;
+}
+body div.row div.col-lg-6 h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.3;
 }/*# sourceMappingURL=style.css.map */
