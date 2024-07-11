@@ -80,7 +80,31 @@ body {
 //   make icons change color on hover
 
     section#features {
-        background-color: blue;
+        padding: 7% 15%;
+        .row {
+            .feature-box {
+                text-align: center;
+                padding: 5%;
+
+                i.icon {
+                    color: #ef8172;
+                    margin-bottom: 1rem;
+                }
+                
+                i.icon:hover{
+                    color: #ff4c68;
+                }
+
+                h3 {
+                    font-family: "Montserrat-Bold", sans-serif;
+                    font-weight: bold;
+                }
+
+                p {
+                    color: #afafaf;
+                }
+            }
+        }
     }
 
     // testimonial section
