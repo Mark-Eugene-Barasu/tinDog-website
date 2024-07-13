@@ -12,7 +12,7 @@ body section#title {
   color: white;
 }
 body section#title .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 body section#title .container-fluid .navbar {
   padding: 0 0 4.5rem;
@@ -29,6 +29,9 @@ body section#title .container-fluid .navbar .navbarSupportedContent .navbar-nav 
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
+body section#title .container-fluid div.row {
+  position: relative;
+}
 body section#title .container-fluid div.row div.col-lg-6 h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-size: 3.5rem;
@@ -38,11 +41,15 @@ body section#title .container-fluid div.row div.col-lg-6 .download_button {
   margin: 5% 3% 5% 0;
 }
 body section#title .container-fluid div.row div.col-lg-6 > .title-image {
-  transform: rotate(25deg);
   width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 body section#features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 body section#features .row .feature-box {
   text-align: center;
@@ -96,4 +103,5 @@ body section#pricing {
 }
 body section#pricing .pricing-column {
   padding: 3% 2%;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
