@@ -152,6 +152,15 @@ body {
 
     // pricing section
 
+    section#pricing {
+        padding: 100px;
+        text-align: center;
+
+        .pricing-column {
+            padding: 3% 2%;
+        }
+    }
+
     // call to action section
 
     // footer section

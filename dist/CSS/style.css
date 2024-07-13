@@ -89,4 +89,11 @@ body section#press {
 body section#press .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+body section#pricing {
+  padding: 100px;
+  text-align: center;
+}
+body section#pricing .pricing-column {
+  padding: 3% 2%;
 }/*# sourceMappingURL=style.css.map */
