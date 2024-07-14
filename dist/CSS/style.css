@@ -104,4 +104,18 @@ body section#pricing {
 body section#pricing .pricing-column {
   padding: 3% 2%;
   align-items: center;
+}
+
+@media (max-width: 1028px) {
+  body {
+    font-family: "Montserrat";
+  }
+  body section#title {
+    text-align: center;
+  }
+  body section#title .container-fluid div.row div.col-lg-6 > .title-image {
+    transform: rotate(0deg);
+    position: static;
+    right: 30%;
+  }
 }/*# sourceMappingURL=style.css.map */

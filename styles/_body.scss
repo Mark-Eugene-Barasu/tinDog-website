@@ -69,6 +69,13 @@ body {
                     position: absolute;
                     right: 30%;
                 }
+
+                // @media (max-width: 1028px) {
+                //     div.col-lg-6>.title-image {
+                //         position: static;
+                //         transform: rotate(0deg);
+                //     }
+                // }
             }
         }
     }
@@ -173,4 +180,27 @@ body {
     // call to action section
 
     // footer section
+}
+
+
+// Responsiveness using Media Query
+@media (max-width: 1028px) {
+    body {
+        font-family: "Montserrat";
+        // navbar & title section
+        section#title {
+            text-align: center;
+            .container-fluid {
+                // title section
+                div.row {             
+                    // title image
+                    div.col-lg-6>.title-image {
+                        transform: rotate(0deg);
+                        position: static;
+                        right: 30%;
+                    }
+                }
+            }
+        }
+    }
 }
