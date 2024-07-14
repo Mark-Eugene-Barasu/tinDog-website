@@ -12,7 +12,8 @@ body section#title {
   color: white;
 }
 body section#title .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
+  padding-bottom: 7%;
 }
 body section#title .container-fluid .navbar {
   padding: 0 0 4.5rem;
@@ -104,6 +105,29 @@ body section#pricing {
 body section#pricing .pricing-column {
   padding: 3% 2%;
   align-items: center;
+}
+body section#cta {
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+  background-color: #ff4c68;
+}
+body section#cta .cta-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+body section#cta .download_button {
+  margin: 5% 3% 5% 0;
+}
+body footer#footer {
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+}
+body footer#footer .social-icon {
+  padding: 3px;
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {

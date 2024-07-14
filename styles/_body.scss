@@ -1,3 +1,6 @@
+// imports from partial(s)
+@import "./mixins";
+
 // general body styling
 
 // body {
@@ -17,7 +20,9 @@ body {
         color: white;
 
         .container-fluid {
-            padding: 3% 15% 7%;
+            @include padding;
+            padding-bottom: 7%;
+
           
 
             // navbar section
@@ -59,7 +64,7 @@ body {
                     }
                     
                     .download_button {
-                        margin: 5% 3% 5% 0;
+                        @include download-button;
                     }
                 } 
                 // title image
@@ -69,30 +74,22 @@ body {
                     position: absolute;
                     right: 30%;
                 }
-
-                // @media (max-width: 1028px) {
-                //     div.col-lg-6>.title-image {
-                //         position: static;
-                //         transform: rotate(0deg);
-                //     }
-                // }
             }
         }
     }
 
-
     // features section
 // icons to use
-// 1 check-circle
+// (i) check-circle
 //   bullseye
 //   heart
-// 2 Responsiveness
+// (2) Responsiveness
 //   icons will take full width in medium display viewport
 //   on large screen it should take 1/3 of the width
 //   make icons change color on hover
 
     section#features {
-        padding: 7% 15%;
+        @include padding; // padding: 7% 15%;
         background-color: white;
         position: relative;
 
@@ -132,7 +129,7 @@ body {
         .carousel {
             .carousel-inner {
                 .carousel-item {
-                    padding: 7% 15%;
+                    @include padding; // padding: 7% 15%;
 
                     h2 {
                         font-family: "Montserrat-Bold", sans-serif;
@@ -178,8 +175,34 @@ body {
     }
 
     // call to action section
+    section#cta {
+        text-align: center;
+        @include padding; // padding: 7% 15%;
+        color: white;
+        background-color: #ff4c68;
+        
+        .cta-heading {
+            font-family: "Montserrat-Black", sans-serif;
+            font-size: 3.5rem;
+            line-height: 1.5;
+        }
+
+        .download_button {
+            @include download-button;
+        }
+    }
 
     // footer section
+    footer#footer {
+        text-align: center;
+        font-family: "Montserrat";
+        @include padding; // padding: 7% 15%;
+
+        .social-icon {
+            padding: 3px;
+            margin: 20px 10px;
+        }
+    }
 }
 
 
