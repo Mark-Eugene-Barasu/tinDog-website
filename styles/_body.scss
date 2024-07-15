@@ -3,15 +3,6 @@
 
 // general body styling
 
-// body {
-//     height: 100vh;
-//     background-image: linear-gradient(skyblue, white, 80%, sandybrown, green);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     height: 100vh;
-//     background-attachment: fixed;
-// }
-
 body {
     font-family: "Montserrat";
     // navbar & title section
@@ -30,25 +21,28 @@ body {
                 padding: 0 0 4.5rem;
                 // background-color: purple;
 
-                .navbar-brand {
-                    font-family: "Ubuntu";
-                    font-size: 2.5rem;
-                    font-weight: bold;
-                }
-
-                .navbarSupportedContent {
-                    .navbar-nav {
-                        .nav-item {
-                            padding: 0 18px;
-
-                            .nav-link {
-                                font-size: 1.2rem;
-                                font-family: "Montserrat-Light";         
+                .container {
+                    .navbar-brand {
+                        font-family: "Ubuntu";
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                    }
+    
+                    .w-100 {
+                        .navbarSupportedContent {
+                            .navbar-nav {
+                                .nav-item {
+                                    padding: 0 18px;
+        
+                                    .nav-link {
+                                        font-size: 1.2rem;
+                                        font-family: "Montserrat-Light";         
+                                    }
+                                }
                             }
                         }
                     }
                 }
-
             }
 
 
@@ -79,14 +73,6 @@ body {
     }
 
     // features section
-// icons to use
-// (i) check-circle
-//   bullseye
-//   heart
-// (2) Responsiveness
-//   icons will take full width in medium display viewport
-//   on large screen it should take 1/3 of the width
-//   make icons change color on hover
 
     section#features {
         @include padding; // padding: 7% 15%;

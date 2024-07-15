@@ -18,15 +18,15 @@ body section#title .container-fluid {
 body section#title .container-fluid .navbar {
   padding: 0 0 4.5rem;
 }
-body section#title .container-fluid .navbar .navbar-brand {
+body section#title .container-fluid .navbar .container .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
-body section#title .container-fluid .navbar .navbarSupportedContent .navbar-nav .nav-item {
+body section#title .container-fluid .navbar .container .w-100 .navbarSupportedContent .navbar-nav .nav-item {
   padding: 0 18px;
 }
-body section#title .container-fluid .navbar .navbarSupportedContent .navbar-nav .nav-item .nav-link {
+body section#title .container-fluid .navbar .container .w-100 .navbarSupportedContent .navbar-nav .nav-item .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
