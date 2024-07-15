@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -29,6 +30,7 @@ body section#title .container-fluid .navbar .container .w-100 .navbarSupportedCo
 body section#title .container-fluid .navbar .container .w-100 .navbarSupportedContent .navbar-nav .nav-item .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
+  font-style: normal;
 }
 body section#title .container-fluid div.row {
   position: relative;
@@ -42,10 +44,10 @@ body section#title .container-fluid div.row div.col-lg-6 .download_button {
   margin: 5% 3% 5% 0;
 }
 body section#title .container-fluid div.row div.col-lg-6 > .title-image {
-  width: 60%;
+  width: 30%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%;
+  right: 10%;
 }
 body section#features {
   padding: 7% 15%;
@@ -65,12 +67,14 @@ body section#features .row .feature-box i.icon:hover {
 }
 body section#features .row .feature-box h3 {
   font-family: "Montserrat-Bold", sans-serif;
-  font-weight: bold;
+  font-optical-sizing: auto;
+  font-weight: 900;
 }
 body section#features .row .feature-box p {
   color: #afafaf;
 }
 body section#testimonials {
+  position: relative;
   text-align: center;
   background-color: #ef8172;
   color: white;
@@ -80,7 +84,8 @@ body section#testimonials .carousel .carousel-inner .carousel-item {
 }
 body section#testimonials .carousel .carousel-inner .carousel-item h2 {
   font-family: "Montserrat-Bold", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
+  font-optical-sizing: auto;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -140,6 +145,7 @@ body footer#footer .social-icon {
   body section#title .container-fluid div.row div.col-lg-6 > .title-image {
     transform: rotate(0deg);
     position: static;
+    width: 60%;
     right: 30%;
   }
 }/*# sourceMappingURL=style.css.map */
